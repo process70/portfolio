@@ -11207,17 +11207,27 @@ pre {
   height: 220px;
   margin: 25px 10px;
 }
-.project-overview a{
-  padding: 10px 15px;
+
+.project-overview a:hover{
+  text-decoration: none;
+}
+
+.projects .source {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects .source a{
+  padding: 10px;
   color: #fff;
   background: #ff7a57;
   border: none;
   width: fit-content;
-  align-self: center;
   border-radius: 25px;
 }
-.project-overview a:hover{
-  text-decoration: none;
+
+.projects .source a:hover{
+  background-color: #f51f3a;
 }
 
 .projects .project-desc{
